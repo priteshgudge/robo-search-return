@@ -76,9 +76,9 @@ Finally thresholding of rock samples is achieved through `rock_thresh` function.
 
 The process_image function processes the image as seen by the rover camera and transforms the elements in the image to a top view thresholded image for path, object and obstacle detection. A view with worldmap superimposed image is generated and displayed. 
 
-![alt text][image2]
 ![alt text][image4]
-![alt text][(https://img.youtube.com/vi/1ikT35gHGHU/0.jpg)](https://www.youtube.com/watch?v=1ikT35gHGHU)
+
+![alt text][Youtube Video](https://www.youtube.com/watch?v=1ikT35gHGHU)
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
