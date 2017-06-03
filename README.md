@@ -60,11 +60,14 @@ Then launch the simulator and choose "Autonomous Mode".  The rover should drive 
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
-You're reading it!
+The project starts with understanding the material in the Robotics Introduction lessons. The objective of the project is to understand the basics of robotics along with the steps involved in collecting the appropriate sensor data and taking action based on it. This is read in as the camera images, pitch, yaw, roll data and fed to the simulator output.
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-Here is an example of how to include an image in your writeup.
+
+The notebook starts with the boilerplate code around basic analysis of sensor and image data and converting this data to actionable information to navigate the rover. The first function implemented is the `color_thresh` which converts the images to identify ground pixels.
+Next `obstacle_thresh` is implemented to identify obstacles like terrain undulations, boulders etc.
+Finally thresholding of rock samples is achieved through `rock_thresh` function. The appropriate color thresholds were decided with multiple experiments with the image data in the simulation dataset.
 
 ![alt text][image1]
 
