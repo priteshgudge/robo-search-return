@@ -77,7 +77,7 @@ The process_image function processes the image as seen by the rover camera and t
 
 ![alt text][image2]
 ![alt text][https://youtu.be/1ikT35gHGHU]
-![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1ikT35gHGHU/0.jpg)](https://www.youtube.com/watch?v=1ikT35gHGHU)
+![ALT TEXT][(https://img.youtube.com/vi/1ikT35gHGHU/0.jpg)](https://www.youtube.com/watch?v=1ikT35gHGHU)
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
